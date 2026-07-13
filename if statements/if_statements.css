@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1e1e2f;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.card {
+    background: #2a2a3d;
+    padding: 32px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    width: 320px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+label {
+    color: #cfcfe0;
+    font-size: 0.95rem;
+}
+
+input#myText {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+}
+
+button#mySubmit {
+    background: #6c63ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+button#mySubmit:hover {
+    background: #5a52e0;
+}
+
+p#resultElement {
+    margin-top: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    min-height: 24px;
+}
