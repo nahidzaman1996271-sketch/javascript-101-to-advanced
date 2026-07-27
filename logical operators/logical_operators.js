@@ -4,3 +4,12 @@
             //  OR = ||
             //  NOT = !
 
+
+const isSunny = true;
+
+if(!isSunny){
+    console.log("It is SUNNY");
+}
+else{
+    console.log("It is CLOUDY");
+}
